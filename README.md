@@ -31,7 +31,7 @@ Este projeto consiste em:
 
 ## Imagens e Arquivos
 
-### 1. Imagem do Circuito (Físico/Simulado)
+### 1. Imagem do Circuito (Físico)
 
 ![Imagem do Circuito](link_para_imagem_do_circuito)
 
@@ -41,11 +41,15 @@ Este projeto consiste em:
 - Fios de Conexão
 - Protoboard
 
-### 2. Fluxo Node-RED (.JSON)
+### 2. Imagem do Circuito (Simulado)
+![img2](https://github.com/user-attachments/assets/86e41754-eb9a-4122-9ec3-bae0d33b6ba1)
+
+
+### 3. Fluxo Node-RED (.JSON)
 
 Link para o arquivo JSON: [node-red-flow.json](link_para_arquivo_json)
 
-### 3. Dashboards (Capturas de Tela)
+### 4. Dashboards (Capturas de Tela)
 
 - **Dashboard de Dados do Sensor Ultrassônico**:
   ![Dashboard Sensor](link_para_dashboard_sensor)
@@ -55,9 +59,9 @@ Link para o arquivo JSON: [node-red-flow.json](link_para_arquivo_json)
   - Cidade 2: ![Dashboard Cidade 2](link_para_dashboard_cidade2)
 
 
-### 3.Código ultrassonico  (Capturas de Tela)
+### 3.Código ultrassonico 
 
-!![codeEDGE](https://github.com/user-attachments/assets/3bd2f8c1-0c38-4f1b-83e1-976eb45f70c8)
+![codeEDGE](https://github.com/user-attachments/assets/3bd2f8c1-0c38-4f1b-83e1-976eb45f70c8)
 
 
 ## Como Executar
