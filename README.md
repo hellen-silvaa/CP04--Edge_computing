@@ -54,6 +54,12 @@ Link para o arquivo JSON: [node-red-flow.json](link_para_arquivo_json)
   - Cidade 1: ![Dashboard Cidade 1](link_para_dashboard_cidade1)
   - Cidade 2: ![Dashboard Cidade 2](link_para_dashboard_cidade2)
 
+
+### 3.Código ultrassonico  (Capturas de Tela)
+
+!![codeEDGE](https://github.com/user-attachments/assets/3bd2f8c1-0c38-4f1b-83e1-976eb45f70c8)
+
+
 ## Como Executar
 
 1. Certifique-se de ter o Arduino IDE instalado para programar o Arduino.
