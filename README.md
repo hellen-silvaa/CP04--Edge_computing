@@ -49,6 +49,11 @@ Este projeto consiste em:
 
 Link para o arquivo JSON: [node-red-flow.json](link_para_arquivo_json)
 
+### 3.1 BIBLIOTECAS UTILIZADAS 
+![bibliotecas](https://github.com/user-attachments/assets/dc859414-88c4-4fc1-9f80-6fa76d80f267)
+
+
+
 ### 4. Dashboards (Capturas de Tela)
 
 - **Dashboard de Dados do Sensor Ultrassônico**:
