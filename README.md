@@ -61,7 +61,8 @@ Link para o arquivo JSON: [node-red-flow.json](link_para_arquivo_json)
 
 ### 3.Código ultrassonico 
 
-![codeEDGE](https://github.com/user-attachments/assets/3bd2f8c1-0c38-4f1b-83e1-976eb45f70c8)
+![edge2](https://github.com/user-attachments/assets/b4250b84-8d2c-4c9d-8fed-8261fc6281d3)
+
 
 
 ## Como Executar
