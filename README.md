@@ -1,6 +1,7 @@
 # Projeto de IoT - Comunicação entre Sensores, API e Node-RED
 
-Este projeto envolve a construção de uma solução de IoT que abrange todos os conceitos de comunicação entre sensores, uma API externa, e o uso do Node-RED. Abaixo você encontrará a documentação completa, imagens do circuito, fluxos, dashboards, e as instruções para replicar o projeto.
+Este projeto foi realizado no checkpoint 04 da matéria de **Edge Computing & Computer Systems**, ministrada pelo professor **Yan Gabriel Coelho**.
+Construimos uma solução de IoT que abrange todos os conceitos de comunicação entre sensores, uma API externa, e o uso do Node-RED. Abaixo você encontrará a documentação completa, imagens do circuito e dashboards.
 
 ## Integrantes
 
@@ -11,7 +12,7 @@ Este projeto envolve a construção de uma solução de IoT que abrange todos os
 
 Este projeto consiste em:
 1. **Leitura de um sensor ultrassônico**: Um único código em Arduino é utilizado para ler um sensor ultrassônico a cada 3000ms. Os valores lidos são disponibilizados na porta serial e são exibidos tanto no console de depuração (DEBUG) quanto em um dashboard criado no Node-RED.
-2. **Dashboards de cidades diferentes usando API OpenWeatherMap**: Dois dashboards no Node-RED que mostram informações meteorológicas de duas cidades diferentes usando a API do OpenWeatherMap. As informações incluem:
+2. **Dashboards de cidades diferentes usando API OpenWeatherMap**: Dois dashboards no Node-RED que mostram informações meteorológicas de São Bernardo e Itaquera usando a API do OpenWeatherMap. As informações incluem:
    - Temperatura atual (em Fahrenheit)
    - Pressão
    - Nível do mar
@@ -22,20 +23,10 @@ Este projeto consiste em:
 - **Sensor Ultrassônico**: Sensor para medir a distância e refletir essa informação no Node-RED.
 - **Node-RED**: Utilizado para criar o dashboard e visualizar os dados do sensor e da API do OpenWeatherMap.
 - **API OpenWeatherMap**: API externa para obter informações meteorológicas de diferentes cidades.
+- **Protoboard**: Utilizada para montagem dos circuitos eletrônicos de forma prática e sem necessidade de solda.
+- **Fios de Conexão**: Utilizados para conectar os componentes na protoboard e ao Arduino.
 
-## Instruções de Configuração
-
-1. **Montagem do Circuito**: Siga o diagrama de montagem física ou simulada do circuito. Certifique-se de conectar o sensor ultrassônico corretamente ao Arduino.
-2. **Código Arduino**:
-   - Faça o upload do código `sensor-ultrassonico.ino` para o Arduino.
-   - O código lê o sensor ultrassônico a cada 3000ms e envia os dados para a porta serial.
-
-3. **Configuração do Node-RED**:
-   - Importe o fluxo `node-red-flow.json` para o Node-RED.
-   - Configure a API Key do OpenWeatherMap no fluxo importado.
-   - Certifique-se de que o Node-RED está configurado para ler os dados da porta serial correta do Arduino.
-
-4. **Dashboards**:
+. **Dashboards**:
    - Acesse os dashboards através do Node-RED para visualizar as leituras do sensor e as informações meteorológicas das duas cidades.
 
 ## Imagens e Arquivos
