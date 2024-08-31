@@ -36,7 +36,8 @@ Este projeto consiste em:
 
 ### 1. Imagem do Circuito (Físico)
 
-![Imagem do Circuito](link_para_imagem_do_circuito)
+![Uploading AD.jpg…]()
+
 
 
 ### 2. Fluxo Node-RED (.JSON)
