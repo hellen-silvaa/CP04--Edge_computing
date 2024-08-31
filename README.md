@@ -11,8 +11,8 @@ Construimos uma solução de IoT que abrange todos os conceitos de comunicação
 ## Descrição do Projeto
 
 Este projeto consiste em:
-1. **Leitura de um sensor ultrassônico**: Um único código em Arduino é utilizado para ler um sensor ultrassônico a cada 3000ms. Os valores lidos são disponibilizados na porta serial e são exibidos tanto no console de depuração (DEBUG) quanto em um dashboard criado no Node-RED.
-2. **Dashboards de cidades diferentes usando API OpenWeatherMap**: Dois dashboards no Node-RED que mostram informações meteorológicas de São Bernardo e Itaquera usando a API do OpenWeatherMap. As informações incluem:
+1. **Leitura de um sensor ultrassônico**: Um único código em Arduino é utilizado para ler um sensor ultrassônico a cada 2000ms. Os valores lidos são disponibilizados na porta serial e são exibidos tanto no console de depuração (DEBUG) quanto em um dashboard criado no Node-RED.
+2. **Dashboards de cidades diferentes usando API OpenWeatherMap**: Dois dashboards no Node-RED que mostram informações meteorológicas de São Bernardo e Dubai usando a API do OpenWeatherMap. As informações incluem:
    - Temperatura atual (em Fahrenheit)
    - Pressão
    - Nível do mar
@@ -36,11 +36,6 @@ Este projeto consiste em:
 
 ![Imagem do Circuito](link_para_imagem_do_circuito)
 
-**Descrição dos Componentes**:
-- Sensor Ultrassônico: Modelo XYZ
-- Arduino: Modelo UNO R3
-- Fios de Conexão
-- Protoboard
 
 ### 2. Imagem do Circuito (Simulado)
 ![img2](https://github.com/user-attachments/assets/86e41754-eb9a-4122-9ec3-bae0d33b6ba1)
@@ -48,7 +43,7 @@ Este projeto consiste em:
 
 ### 3. Fluxo Node-RED (.JSON)
 
-Link para o arquivo JSON: [node-red-flow.json](link_para_arquivo_json)
+ [node-red-flow.json](link_para_arquivo_json)
 
 ### 3.1 BIBLIOTECAS UTILIZADAS 
 ![bibliotecas](https://github.com/user-attachments/assets/dc859414-88c4-4fc1-9f80-6fa76d80f267)
