@@ -48,7 +48,7 @@ Este projeto consiste em:
 
 
 
-### 2. Fluxo Node-RED (DASHBOARD - SÃO BERNARDO DO CAMPO)
+### 3. Fluxo Node-RED (DASHBOARD - SÃO BERNARDO DO CAMPO)
 
 ![SAO BERNARDO](https://github.com/user-attachments/assets/767de49e-e82e-41f4-a247-f7cb6a13a010)
 
@@ -68,12 +68,12 @@ Este projeto consiste em:
 
 
 
-### 3.Código ultrassonico 
+### 4.Código ultrassonico 
 
 ![image](https://github.com/user-attachments/assets/d830e8dd-5c8c-4279-9aa5-975da5a0823e)
 
 
 
-## Considerações Finais
+## 5.Considerações Finais
 
 Este projeto demonstra a integração de sensores de hardware com softwares de automação e APIs externas, proporcionando uma experiência prática em IoT e visualização de dados.
