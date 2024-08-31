@@ -46,6 +46,9 @@ Este projeto consiste em:
 ### 2.1 BIBLIOTECAS UTILIZADAS 
 ![bibliotecas](https://github.com/user-attachments/assets/dc859414-88c4-4fc1-9f80-6fa76d80f267)
 
+### 2.2 FUNÇÃO UTILIZADA PARA CONVERTER PARA FAHRENHEIT:
+![FSFGD](https://github.com/user-attachments/assets/7d592349-e333-42b0-9d58-870f49c9c68a)
+
 
 ### 3. Fluxo Node-RED (DASHBOARD - SÃO BERNARDO DO CAMPO)
 
