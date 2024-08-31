@@ -36,7 +36,6 @@ Este projeto consiste em:
 
 ### 1. Imagem do Circuito (Físico)
 
-
 ![AD](https://github.com/user-attachments/assets/af1d4369-a9dc-4df2-a784-d93abb371ba5)
 
 ### 2. Fluxo Node-RED (.JSON)
@@ -51,19 +50,17 @@ Este projeto consiste em:
 
 
 ### 3. Fluxo Node-RED (DASHBOARD - SÃO BERNARDO DO CAMPO)
-
 ![SAO BERNARDO](https://github.com/user-attachments/assets/767de49e-e82e-41f4-a247-f7cb6a13a010)
 
 ### 3.1 Fluxo Node-RED (DASHBOARD - DUBAI)
-
 ![DUBAI](https://github.com/user-attachments/assets/9b9a941f-17ff-4d31-8577-dc22231135a9)
 
 
 
-### 4. Dashboards (Capturas de Tela)
-Fahrenheit
-- **Dashboard de Dados do Sensor Ultrassônico**:
-  ![Dashboard Sensor](link_para_dashboard_sensor)
+### 4. Dashboar do Sensor Ultrassônico
+
+![AGRAVAI](https://github.com/user-attachments/assets/9e62547d-c5b0-449d-adb6-6fb3376dd4ef)
+
 
 ### 4.1 Código ultrassÔnico 
 
