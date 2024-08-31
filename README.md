@@ -61,13 +61,11 @@ Este projeto consiste em:
 
 
 ### 4. Dashboards (Capturas de Tela)
-
+Fahrenheit
 - **Dashboard de Dados do Sensor Ultrassônico**:
   ![Dashboard Sensor](link_para_dashboard_sensor)
 
-
-
-### 4.1 Código ultrassonico 
+### 4.1 Código ultrassÔnico 
 
 ![image](https://github.com/user-attachments/assets/d830e8dd-5c8c-4279-9aa5-975da5a0823e)
 
