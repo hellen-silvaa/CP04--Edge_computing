@@ -27,6 +27,7 @@ Este projeto consiste em:
 - **API OpenWeatherMap**: API externa para obter informações meteorológicas de diferentes cidades.
 - **Protoboard**: Utilizada para montagem do circuito.
 - **Fios de Conexão**: Utilizados para conectar os componentes na protoboard e ao Arduino.
+- **Arduino**: Utilizada para processar as informações.
 
 . **Dashboards**:
    - Acesse os dashboards através do Node-RED para visualizar as leituras do sensor e as informações meteorológicas das duas cidades.
