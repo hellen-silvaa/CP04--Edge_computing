@@ -41,7 +41,9 @@ Este projeto consiste em:
 
 ### 2. Fluxo Node-RED (.JSON)
 
-![image](https://github.com/user-attachments/assets/4d65ed69-e76e-44df-989e-7b4990a8d0c0)
+![imagem](https://github.com/user-attachments/assets/de595fe5-99e7-4f71-8ec3-147d4893da31)
+
+
 
 ### 2. Fluxo Node-RED (DASHBOARD )
 
