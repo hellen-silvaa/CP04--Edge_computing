@@ -11,8 +11,9 @@ Construimos uma solução de IoT que abrange todos os conceitos de comunicação
 ## Descrição do Projeto
 
 Este projeto consiste em:
-1. **Leitura de um sensor ultrassônico**: Um único código em Arduino é utilizado para ler um sensor ultrassônico a cada 2000ms. Os valores lidos são disponibilizados na porta serial e são exibidos tanto no console de depuração (DEBUG) quanto em um dashboard criado no Node-RED.
-2. **Dashboards de cidades diferentes usando API OpenWeatherMap**: Dois dashboards no Node-RED que mostram informações meteorológicas de São Bernardo e Dubai usando a API do OpenWeatherMap. As informações incluem:
+1. **Leitura de um sensor ultrassônico**: O Arduino foi utilizado para ler um sensor ultrassônico a cada 2000ms. Os valores lidos são disponibilizados na porta serial e são exibidos tanto no console de depuração (DEBUG) quanto em um dashboard criado no Node-RED.
+   
+2. **Dashboards de cidades diferentes usando API OpenWeatherMap**: Dois dashboards no Node-RED que mostram informações meteorológicas de São Bernardo do Campo e Dubai usando a API do OpenWeatherMap. As informações incluem:
    - Temperatura atual (em Fahrenheit)
    - Pressão
    - Nível do mar
@@ -21,10 +22,10 @@ Este projeto consiste em:
 
 ## Componentes Utilizados
 
-- **Sensor Ultrassônico**: Sensor para medir a distância e refletir essa informação no Node-RED.
+- **Sensor Ultrassônico**: Sensor para medir a distância e imprimir essa informação no Node-RED.
 - **Node-RED**: Utilizado para criar o dashboard e visualizar os dados do sensor e da API do OpenWeatherMap.
 - **API OpenWeatherMap**: API externa para obter informações meteorológicas de diferentes cidades.
-- **Protoboard**: Utilizada para montagem dos circuitos eletrônicos de forma prática e sem necessidade de solda.
+- **Protoboard**: Utilizada para montagem do circuito.
 - **Fios de Conexão**: Utilizados para conectar os componentes na protoboard e ao Arduino.
 
 . **Dashboards**:
@@ -40,7 +41,9 @@ Este projeto consiste em:
 
 ### 2. Fluxo Node-RED (.JSON)
 
- [node-red-flow.json](link_para_arquivo_json)
+![image](https://github.com/user-attachments/assets/4d65ed69-e76e-44df-989e-7b4990a8d0c0)
+
+### 2. Fluxo Node-RED (DASHBOARD )
 
 ### 3.1 BIBLIOTECAS UTILIZADAS 
 ![bibliotecas](https://github.com/user-attachments/assets/dc859414-88c4-4fc1-9f80-6fa76d80f267)
