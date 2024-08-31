@@ -38,17 +38,25 @@ Este projeto consiste em:
 ![Imagem do Circuito](link_para_imagem_do_circuito)
 
 
-
 ### 2. Fluxo Node-RED (.JSON)
 
 ![imagem](https://github.com/user-attachments/assets/de595fe5-99e7-4f71-8ec3-147d4893da31)
 
-
-
-### 2. Fluxo Node-RED (DASHBOARD )
-
-### 3.1 BIBLIOTECAS UTILIZADAS 
+### 2.1 BIBLIOTECAS UTILIZADAS 
 ![bibliotecas](https://github.com/user-attachments/assets/dc859414-88c4-4fc1-9f80-6fa76d80f267)
+
+
+
+### 2. Fluxo Node-RED (DASHBOARD - SÃO BERNARDO DO CAMPO)
+
+![SAO BERNARDO](https://github.com/user-attachments/assets/767de49e-e82e-41f4-a247-f7cb6a13a010)
+
+### 2. Fluxo Node-RED (DASHBOARD - DUBAI)
+
+![DUBAI](https://github.com/user-attachments/assets/9b9a941f-17ff-4d31-8577-dc22231135a9)
+
+
+
 
 
 
