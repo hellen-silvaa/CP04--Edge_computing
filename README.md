@@ -37,11 +37,8 @@ Este projeto consiste em:
 ![Imagem do Circuito](link_para_imagem_do_circuito)
 
 
-### 2. Imagem do Circuito (Simulado)
-![img2](https://github.com/user-attachments/assets/86e41754-eb9a-4122-9ec3-bae0d33b6ba1)
 
-
-### 3. Fluxo Node-RED (.JSON)
+### 2. Fluxo Node-RED (.JSON)
 
  [node-red-flow.json](link_para_arquivo_json)
 
@@ -62,19 +59,12 @@ Este projeto consiste em:
 
 ### 3.Código ultrassonico 
 
-![edge2](https://github.com/user-attachments/assets/b4250b84-8d2c-4c9d-8fed-8261fc6281d3)
+![image](https://github.com/user-attachments/assets/d830e8dd-5c8c-4279-9aa5-975da5a0823e)
 
 
 
-## Como Executar
 
-1. Certifique-se de ter o Arduino IDE instalado para programar o Arduino.
-2. Carregue o código fornecido no Arduino e conecte o dispositivo ao computador.
-3. Importe e configure o fluxo no Node-RED.
-4. Abra os dashboards no navegador para visualizar os dados.
 
 ## Considerações Finais
 
 Este projeto demonstra a integração de sensores de hardware com softwares de automação e APIs externas, proporcionando uma experiência prática em IoT e visualização de dados.
-
-Se tiver dúvidas, entre em contato com qualquer um dos integrantes do projeto.
