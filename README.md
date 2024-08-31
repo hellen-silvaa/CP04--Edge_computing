@@ -1,7 +1,7 @@
 # Projeto de IoT - Comunicação entre Sensores, API e Node-RED
 
 Este projeto foi realizado no checkpoint 04 da matéria de **Edge Computing & Computer Systems**, ministrada pelo professor **Yan Gabriel Coelho**.
-Construimos uma solução de IoT que abrange todos os conceitos de comunicação entre sensores, uma API externa, e o uso do Node-RED. Abaixo você encontrará a documentação completa, imagens do circuito e dashboards.
+Construimos uma solução de IoT que abrange todos os conceitos de comunicação entre sensores, uma API externa, e o uso do Node-RED. 
 
 ## Integrantes
 
@@ -51,7 +51,7 @@ Este projeto consiste em:
 
 ![SAO BERNARDO](https://github.com/user-attachments/assets/767de49e-e82e-41f4-a247-f7cb6a13a010)
 
-### 2. Fluxo Node-RED (DASHBOARD - DUBAI)
+### . Fluxo Node-RED (DASHBOARD - DUBAI)
 
 ![DUBAI](https://github.com/user-attachments/assets/9b9a941f-17ff-4d31-8577-dc22231135a9)
 
@@ -65,16 +65,11 @@ Este projeto consiste em:
 - **Dashboard de Dados do Sensor Ultrassônico**:
   ![Dashboard Sensor](link_para_dashboard_sensor)
 
-- **Dashboards das Cidades**:
-  - Cidade 1: ![Dashboard Cidade 1](link_para_dashboard_cidade1)
-  - Cidade 2: ![Dashboard Cidade 2](link_para_dashboard_cidade2)
 
 
 ### 3.Código ultrassonico 
 
 ![image](https://github.com/user-attachments/assets/d830e8dd-5c8c-4279-9aa5-975da5a0823e)
-
-
 
 
 
