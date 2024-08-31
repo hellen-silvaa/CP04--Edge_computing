@@ -36,9 +36,8 @@ Este projeto consiste em:
 
 ### 1. Imagem do Circuito (Físico)
 
-![Uploading AD.jpg…]()
 
-
+![AD](https://github.com/user-attachments/assets/af1d4369-a9dc-4df2-a784-d93abb371ba5)
 
 ### 2. Fluxo Node-RED (.JSON)
 
@@ -48,7 +47,6 @@ Este projeto consiste em:
 ![bibliotecas](https://github.com/user-attachments/assets/dc859414-88c4-4fc1-9f80-6fa76d80f267)
 
 
-
 ### 3. Fluxo Node-RED (DASHBOARD - SÃO BERNARDO DO CAMPO)
 
 ![SAO BERNARDO](https://github.com/user-attachments/assets/767de49e-e82e-41f4-a247-f7cb6a13a010)
@@ -56,9 +54,6 @@ Este projeto consiste em:
 ### . Fluxo Node-RED (DASHBOARD - DUBAI)
 
 ![DUBAI](https://github.com/user-attachments/assets/9b9a941f-17ff-4d31-8577-dc22231135a9)
-
-
-
 
 
 
