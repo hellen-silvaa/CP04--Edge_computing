@@ -17,6 +17,7 @@ Este projeto consiste em:
    - Pressão
    - Nível do mar
    - Nuvens
+   - Nível da terra
 
 ## Componentes Utilizados
 
