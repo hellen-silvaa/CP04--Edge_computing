@@ -57,7 +57,7 @@ Este projeto consiste em:
 
 
 
-### 4. DashboarD do Sensor Ultrassônico
+### 4. Dashboard do Sensor Ultrassônico
 
 ![AGRAVAI](https://github.com/user-attachments/assets/9e62547d-c5b0-449d-adb6-6fb3376dd4ef)
 
