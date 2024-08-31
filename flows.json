@@ -1,0 +1,965 @@
+[
+    {
+        "id": "93bcbd47f746bbbc",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ed7245fdfc13e451",
+        "type": "ui_tab",
+        "name": "cidade 1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0b8019fe128ca14a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "fc7e960726324301",
+        "type": "ui_group",
+        "name": "grupo 1",
+        "tab": "ed7245fdfc13e451",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f721e3fa43246644",
+        "type": "ui_tab",
+        "name": "cidade 2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4a90801535460d8e",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "f721e3fa43246644",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70ef92a4998707f0",
+        "type": "ui_tab",
+        "name": "ultrassonico",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "35ef982870a2b03f",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "70ef92a4998707f0",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "1f59643410a9fa9e",
+        "type": "inject",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 100,
+        "wires": [
+            [
+                "f88a2af48d25867e",
+                "f334da5ba0b69c56"
+            ]
+        ]
+    },
+    {
+        "id": "f88a2af48d25867e",
+        "type": "http request",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.openweathermap.org/data/2.5/weather?lat=-23.6944&lon=-46.5654&appid=a669c7581a465a7a7c6ca5cea61e378f&units=metric",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "1c5a6b06fab95e08"
+            ]
+        ]
+    },
+    {
+        "id": "f334da5ba0b69c56",
+        "type": "http request",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.openweathermap.org/data/2.5/weather?lat=25.276987&lon=55.296249&appid=a669c7581a465a7a7c6ca5cea61e378f&units=metric",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 210,
+        "y": 400,
+        "wires": [
+            [
+                "5c8d22c396a66fff"
+            ]
+        ]
+    },
+    {
+        "id": "1c5a6b06fab95e08",
+        "type": "json",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "fed6df942bd5ab73",
+                "74a3485c9709f268",
+                "7ae9c699884f7b94",
+                "04f52e1d42578e8b",
+                "d047d3f539d01358",
+                "27ad64597b8eb70b"
+            ]
+        ]
+    },
+    {
+        "id": "5c8d22c396a66fff",
+        "type": "json",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 440,
+        "wires": [
+            [
+                "8f9fbd6d62247e16",
+                "fbf3dc13851697d9",
+                "023dcd91ec9f28f9",
+                "4e376e1509ca6395",
+                "31d5ea460407e8c4",
+                "eea4251393ebbe4a"
+            ]
+        ]
+    },
+    {
+        "id": "fed6df942bd5ab73",
+        "type": "debug",
+        "z": "93bcbd47f746bbbc",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "8f9fbd6d62247e16",
+        "type": "debug",
+        "z": "93bcbd47f746bbbc",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "fbf3dc13851697d9",
+        "type": "function",
+        "z": "93bcbd47f746bbbc",
+        "name": "function 1",
+        "func": "\nlet tempCelsius = msg.payload.main.temp;\n\n\nlet tempFahrenheit = (tempCelsius * 9 / 5) + 32;\n\n\nmsg.payload.tempFahrenheit = tempFahrenheit;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "f776ef11bc3d2159"
+            ]
+        ]
+    },
+    {
+        "id": "74a3485c9709f268",
+        "type": "function",
+        "z": "93bcbd47f746bbbc",
+        "name": "function 2",
+        "func": "\nlet tempCelsius = msg.payload.main.temp;\n\n\nlet tempFahrenheit = (tempCelsius * 9 / 5) + 32;\n\n\nmsg.payload.tempFahrenheit = tempFahrenheit;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 80,
+        "wires": [
+            [
+                "cd5aa85e74a12dcf"
+            ]
+        ]
+    },
+    {
+        "id": "cd5aa85e74a12dcf",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempFahrenheit",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 80,
+        "wires": [
+            [
+                "33be8794135da2e1"
+            ]
+        ]
+    },
+    {
+        "id": "33be8794135da2e1",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "fc7e960726324301",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "7ae9c699884f7b94",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.pressure",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 120,
+        "wires": [
+            [
+                "7191c7b2af904541"
+            ]
+        ]
+    },
+    {
+        "id": "7191c7b2af904541",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "fc7e960726324301",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "pressao",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 940,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "04f52e1d42578e8b",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "nivel do mar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.sea_level",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 160,
+        "wires": [
+            [
+                "dc10c1b04000ab28"
+            ]
+        ]
+    },
+    {
+        "id": "dc10c1b04000ab28",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "fc7e960726324301",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "nivel mar",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 940,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d047d3f539d01358",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "Nivel da terra",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.grnd_level",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 200,
+        "wires": [
+            [
+                "1207fb54c41e3821"
+            ]
+        ]
+    },
+    {
+        "id": "1207fb54c41e3821",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "fc7e960726324301",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "nivel da terra",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 950,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "27ad64597b8eb70b",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "Nuvens",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.clouds.all",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 240,
+        "wires": [
+            [
+                "ad0ffe273cbf8664"
+            ]
+        ]
+    },
+    {
+        "id": "ad0ffe273cbf8664",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "fc7e960726324301",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "nuvens",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 940,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f776ef11bc3d2159",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempFahrenheit",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 440,
+        "wires": [
+            [
+                "26865fc5a858c0bd"
+            ]
+        ]
+    },
+    {
+        "id": "26865fc5a858c0bd",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "4a90801535460d8e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "temp2",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "023dcd91ec9f28f9",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.pressure",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 480,
+        "wires": [
+            [
+                "2cc4404910338168"
+            ]
+        ]
+    },
+    {
+        "id": "2cc4404910338168",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "4a90801535460d8e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "pressao2",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 980,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "4e376e1509ca6395",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "nivel do mar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.sea_level",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 520,
+        "wires": [
+            [
+                "18f978a950be9f85"
+            ]
+        ]
+    },
+    {
+        "id": "18f978a950be9f85",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "4a90801535460d8e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "nivel mar2",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 990,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "31d5ea460407e8c4",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "Nivel da terra",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.grnd_level",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 560,
+        "wires": [
+            [
+                "1d81e61dd8db1184"
+            ]
+        ]
+    },
+    {
+        "id": "1d81e61dd8db1184",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "4a90801535460d8e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "nivel da terra2",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1000,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "eea4251393ebbe4a",
+        "type": "change",
+        "z": "93bcbd47f746bbbc",
+        "name": "Nuvens",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.clouds.all",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 600,
+        "wires": [
+            [
+                "876958d7872ee37f"
+            ]
+        ]
+    },
+    {
+        "id": "876958d7872ee37f",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "4a90801535460d8e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "nuvens2",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 980,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1e65adf41995b83f",
+        "type": "serial in",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "serial": "",
+        "x": 130,
+        "y": 740,
+        "wires": [
+            [
+                "329d8c3a52a9682b",
+                "9c8a5b49cc8b0dd1"
+            ]
+        ]
+    },
+    {
+        "id": "9c8a5b49cc8b0dd1",
+        "type": "ui_gauge",
+        "z": "93bcbd47f746bbbc",
+        "name": "",
+        "group": "35ef982870a2b03f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "ultrassonico",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "329d8c3a52a9682b",
+        "type": "debug",
+        "z": "93bcbd47f746bbbc",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 700,
+        "wires": []
+    }
+]
