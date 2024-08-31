@@ -54,7 +54,7 @@ Este projeto consiste em:
 
 ![SAO BERNARDO](https://github.com/user-attachments/assets/767de49e-e82e-41f4-a247-f7cb6a13a010)
 
-### . Fluxo Node-RED (DASHBOARD - DUBAI)
+### 3.1 Fluxo Node-RED (DASHBOARD - DUBAI)
 
 ![DUBAI](https://github.com/user-attachments/assets/9b9a941f-17ff-4d31-8577-dc22231135a9)
 
@@ -67,12 +67,7 @@ Este projeto consiste em:
 
 
 
-### 4.Código ultrassonico 
+### 4.1 Código ultrassonico 
 
 ![image](https://github.com/user-attachments/assets/d830e8dd-5c8c-4279-9aa5-975da5a0823e)
 
-
-
-## 5.Considerações Finais
-
-Este projeto demonstra a integração de sensores de hardware com softwares de automação e APIs externas, proporcionando uma experiência prática em IoT e visualização de dados.
